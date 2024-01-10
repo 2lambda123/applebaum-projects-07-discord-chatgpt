@@ -30,8 +30,8 @@ const config = {
   title: title,
   tagline: 'Owls are cool',
   /*Unless you move this website to a seperate repo don't change url and baseurl.*/
-  url: 'https://'+process.env.ORG_NAME+'.github.io/',
-  baseUrl: '/'+process.env.PROJECT_NAME+'/',
+  url: 'https://applebaumian.github.io/',
+  baseUrl: '/applebaum-projects-07-discord-chatgpt/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
