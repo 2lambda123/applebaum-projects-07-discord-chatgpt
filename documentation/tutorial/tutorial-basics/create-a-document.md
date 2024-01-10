@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Create a Document
 
-Documents are **groups of pages** connected through:
+Documents are **groups of pages** connected through markdown files:
 
 - a **sidebar**
 - **previous/next navigation**
@@ -20,7 +20,7 @@ Create a markdown file at `docs/hello.md`:
 This is my **first Docusaurus document**!
 ```
 
-A new document is now available at `http://localhost:3000/docs/hello`.
+After creating the file, a new document will be accessible at `http://localhost:3000/docs/hello`.
 
 ## Configure the Sidebar
 
