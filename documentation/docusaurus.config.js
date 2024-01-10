@@ -138,11 +138,11 @@ remarkPlugins: [require('mdx-mermaid')],
         logo: {
           alt: 'My Site Logo',
           src: logo,
-        },
+      },
         links: [
           {
             title: 'Docs',
-            items: [
+                      items: [
               {
                 label: 'Documentation',
                 to: '/docs/intro',
@@ -184,7 +184,6 @@ remarkPlugins: [require('mdx-mermaid')],
       },
       imageZoom: {
         // CSS selector to apply the plugin to, defaults to '.markdown img'
-  {
     title: 'Community',
     items: [
       {
