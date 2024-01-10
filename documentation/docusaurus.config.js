@@ -20,7 +20,7 @@ const main_template_jira_scripts = () => {
 }
 
 // You can change the title here. The default is the name of the repository.
-const title = ''+process.env.PROJECT_NAME.replaceAll('-',' ').split(' ').map((word) => {
+const title = process.env.PROJECT_NAME.replaceAll('-', ' ').split(' ').map((word) => {
   return word[0].toUpperCase() + word.substring(1);
 }).join(' ');
 
@@ -96,6 +96,10 @@ const config = {
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
+editUrl: 'https://github.com/my-org/my-project/edit/main/documentation/',
+remarkPlugins: [require('mdx-mermaid')],
+editUrl: 'https://github.com/my-org/my-project/edit/main/documentation/',
+remarkPlugins: [require('mdx-mermaid')],
           // Change with your site colors
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -181,6 +185,23 @@ const config = {
       },
       imageZoom: {
         // CSS selector to apply the plugin to, defaults to '.markdown img'
+  {
+    title: 'Community',
+    items: [
+      {
+        label: 'Stack Overflow',
+        href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      },
+      {
+        label: 'Discord',
+        href: 'https://discordapp.com/invite/docusaurus',
+      },
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/docusaurus',
+      },
+    ],
+  },
         selector: '.markdown img',
         // Optional medium-zoom options
         // see: https://www.npmjs.com/package/medium-zoom#options
