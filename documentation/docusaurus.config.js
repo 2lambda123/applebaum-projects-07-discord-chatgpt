@@ -178,9 +178,9 @@ remarkPlugins: [require('mdx-mermaid')],
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ${title}, Inc. Built with Docusaurus.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+
+
+
       },
       imageZoom: {
         // CSS selector to apply the plugin to, defaults to '.markdown img'
@@ -200,7 +200,7 @@ remarkPlugins: [require('mdx-mermaid')],
       },
     ],
   },
-        selector: '.markdown img',
+
         // Optional medium-zoom options
         // see: https://www.npmjs.com/package/medium-zoom#options
         options: {
