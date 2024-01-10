@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
  * The URL or reference to your projects logo!
  * @type {string}
  */
-const logo = 'https://upload.wikimedia.org/wikipedia/commons/1/17/Temple_T_logo.svg';
+const logo = 'https://example.com/logo.svg';
 
 const main_template_jira_scripts = () => {
   if (process.env.ORG_NAME === 'ApplebaumIan'){
@@ -65,8 +65,7 @@ const config = {
           path: 'docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/'+process.env.ORG_NAME+'/'+process.env.PROJECT_NAME+'/edit/main/documentation/',
+          editUrl: null,
           // remarkPlugins: [require('mdx-mermaid')],
 
         },
@@ -96,7 +95,7 @@ const config = {
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
-editUrl: 'https://github.com/my-org/my-project/edit/main/documentation/',
+editUrl: null,
 remarkPlugins: [require('mdx-mermaid')],
 editUrl: 'https://github.com/my-org/my-project/edit/main/documentation/',
 remarkPlugins: [require('mdx-mermaid')],
@@ -113,7 +112,7 @@ remarkPlugins: [require('mdx-mermaid')],
         /*TODO: Change to your project's title*/
         title: title,
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Project Logo',
           src: logo,
         },
         items: [
