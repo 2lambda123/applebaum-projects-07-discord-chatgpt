@@ -227,11 +227,11 @@ remarkPlugins: [require('mdx-mermaid')],
     ],
     [
       "docusaurus2-dotenv-2",
+      "plugin-image-zoom",
       {
         systemvars: true,
       },
     ],
-    'plugin-image-zoom',
 
 
   ],
