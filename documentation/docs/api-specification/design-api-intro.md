@@ -8,7 +8,7 @@ Design Document - Part II API
 
 **Purpose**
 
-This Design Document gives the complete design of the software implementation. This information should be in structured comments (e.g. Javadoc) in the source files. We encourage the use of a documentation generation tool to generate a draft of your API that you can augment to include the following details.
+This Design Document provides detailed information about the software implementation, including class diagrams, data fields, methods, and API specifications. The structured comments (e.g. Javadoc) in the source files serve as a way to document the software design and implementation details, facilitating readability and maintenance. The documentation generation tool is recommended to generate a draft of the API, which can be further enhanced to include comprehensive details about the class diagrams, data fields, methods, and API specifications.
 
 **Requirements**
 
